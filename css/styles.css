@@ -1,0 +1,129 @@
+/*homepage page CSS*/
+#home-carousel .carousel-item img{
+    height: 90vh;
+}
+.btn{
+    border: 1px solid white;
+    color: white;
+    transition: transform 0.5s;
+}
+.btn:hover{
+    border: 1px solid yellow !important;
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+@media screen and (max-width: 1000px) {
+  #home-carousel .carousel-item img{
+      height: 60vh;
+  }
+}
+
+#tours-cards, #about-us, #advert, #services-cards, #map{
+    margin: 20px 0;
+}
+
+.heading{
+    text-align: center;
+    background-color: rgb(229, 229, 229);
+    padding: 5px 0;
+    margin: 0 0 5px 0;
+    border-radius: 10px;
+}
+.card-img{
+    height: 50vh;
+}
+.text-div{
+    position:absolute;
+    bottom: 0;
+    left: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+/*Footer CSS*/
+.foot{
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+}
+
+
+/*Services page CSS*/
+.img-banner{
+    width: 100%;
+    height: 90vh;
+}
+
+
+.advert-txt{
+    padding: 10% 0;
+}
+.advert-img, .map-img{
+    width: 100%; 
+    height:60vh; 
+    border-radius: 10px;
+}
+
+body{
+  background-color:#ffffff;
+  background-position: center;
+  background-size: cover;
+}
+  .container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.sub-container {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
